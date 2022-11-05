@@ -1,0 +1,40 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #0000;
+}
+
+.drop {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.parallax {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 89vh;
+}
+
+.intro {
+    background-image: url("/img/nft.jpeg");
+}
+
+.content-parallax {
+    padding-top: 50vh;
+}
+
+.btn {
+    filter: brightness(110%);
+}
+
+.btn:hover {
+    filter: brightness(150%);
+}

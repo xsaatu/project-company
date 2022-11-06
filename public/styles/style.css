@@ -24,7 +24,7 @@ nav {
 }
 
 .intro {
-    background-image: url("public/img/nft.jpeg");
+    background-image: url("/public/img/nft.jpeg");
 }
 
 .content-parallax {

@@ -3,3 +3,30 @@
     padding: 0;
 }
 
+.parallax {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 89vh;
+}
+
+.satu {
+    background-image: url(/img/apex.jpg);
+}
+
+.dua {
+    background-image: url(/img/pubg.jpeg);
+}
+
+.tiga {
+    background-image: url(/img/mobilelegends.jpg);
+}
+
+.card {
+    background-color:#f1f5f9;
+}
+
+.head {
+    margin-top: 10vh;
+}

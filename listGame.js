@@ -5,6 +5,6 @@ $("#carousel-slider").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 3000,
     mobileFirst: true
 });

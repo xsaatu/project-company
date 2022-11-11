@@ -1,5 +1,5 @@
 function openWin() {
-  window.open("/route/loading.html")
+  window.open("loading.html")
 }
 
 var myVar;

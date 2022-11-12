@@ -1,0 +1,36 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 89vh;
+}
+
+.satu {
+    background-image: url(/img/dota2.jpg);
+}
+
+.dua {
+    background-image: url(/img/apex.jpg);
+}
+
+.tiga {
+    background-image: url(/img/lol.jpg);
+}
+
+.empat {
+    background-image: url(/img/overwathc.jpg);
+}
+
+.lima {
+    background-image: url(/img/csgo.jpg);
+}
+
+#card {
+    margin-top: 5%;
+}

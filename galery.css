@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.logo {
+    background-color: black;
+}
+
 .parallax {
     background-position: center;
     background-size: cover;
@@ -33,4 +37,20 @@
 
 #card {
     margin-top: 5%;
+}
+
+#text-genshin {
+    margin-bottom: 20px;
+}
+
+#text-pubg {
+    margin-bottom: 46px;
+}
+
+#text-lol {
+    margin-bottom: 145px;
+}
+
+#text-overwatch {
+    margin-bottom: 145px;
 }

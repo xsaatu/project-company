@@ -3,16 +3,45 @@
     padding: 0;
 }
 
-nav {
-    background-color: #0000;
+
+.navbar2 {
+  background-color: #f8fafc;
+}
+
+.nav-item {
+  color: black;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .drop {
-    background-color: #343a40;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
 }
 
 .dropdown-item {
-    color: white;
+    color: black;
 }
 
 .parallax {
@@ -20,7 +49,7 @@ nav {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 89vh;
+    height: 100vh;
 }
 
 .intro {

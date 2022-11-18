@@ -97,7 +97,10 @@ h3{
 }
  
 .social{
-    font-size: 21px !important; 
+    font-size: 21px !important;
+    display: flex;
+    align-items: center;
+    align-self: center;
 }
 
 .rights{
